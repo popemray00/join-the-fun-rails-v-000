@@ -5,5 +5,6 @@ class Jointable < ActiveRecord::Migration
       t.integer :taxi_id
 
       t.timestamps null: false
+    end
   end
 end
